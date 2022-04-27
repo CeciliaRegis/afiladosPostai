@@ -23,7 +23,7 @@ header {
 }
 
 body {
-	background-color: rgb(245, 255, 104);
+	background-image: linear-gradient(to bottom, black, yellow);
 }
 
 menu {
