@@ -23,7 +23,7 @@ header {
 }
 
 body {
-	background-image: linear-gradient(to bottom, black, yellow);
+	background-color:rgb(255, 255, 99);
 }
 
 menu {
@@ -32,6 +32,7 @@ menu {
 
 menu h2{
 	text-align: center;
+	margin: 2rem;
 }
 .contenedor-footer{
 	height: 50px;
@@ -72,6 +73,7 @@ ul {
 	flex-direction: row;
 	justify-content: flex-end;
 }
+
 
 li {
 	margin: 0.5rem 1rem;
@@ -200,9 +202,3 @@ td {
 	}
 }
 /*seccion contacto*/
-
-.from{
-	border: 2px solid grey;
-	width: 20%;
-	margin-left: 5rem;
-}
