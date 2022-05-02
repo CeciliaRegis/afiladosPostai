@@ -125,6 +125,11 @@ p {
 	padding: 2rem;
 }
 
+.carrusel{
+    width: 30%;
+	height: 30%;
+	padding: 10rem;
+}
 
 /*seccion nosotros*/
 .div-padre {
