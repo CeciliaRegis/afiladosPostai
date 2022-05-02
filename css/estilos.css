@@ -14,17 +14,18 @@ html {
 	background-position-x: right;
 }
 
-
+.contenedor-header {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
 
 
 header {
 	background-color: rgb(202, 202, 0);
 }
-.img{
 
-	opacity: 0.3;
-
-}
 nav {
 	display: flex;
 	justify-content: center;
@@ -44,9 +45,11 @@ header h2 {
 }
 
 body {
-	background-color:rgb(255, 255, 177);
+	background-color:rgb(255, 255, 202);
 }
-
+body{
+	overflow-x:hidden;
+}
 menu {
 	display: contents;
 }
@@ -122,9 +125,6 @@ p {
 	padding: 2rem;
 }
 
-.Servicios{
-	background-color: aliceblue;
-}
 
 /*seccion nosotros*/
 .div-padre {
