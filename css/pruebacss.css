@@ -1,0 +1,37 @@
+.header {
+    height: 100%;
+    background-color: #caca00; }
+    .header a {
+        /*logo*/ }
+        .header a img {
+        margin: 1rem 1.5rem;
+        max-width: 12rem; }
+    .header h1 {
+        font-style: oblique;
+        font-size: 250%;
+        text-align: center;
+        font-weight: 2px;
+        margin: 10px; }
+    .header h2 {
+        font-style: oblique;
+        font-size: 150%;
+        text-align: center;
+        margin: 10px;
+        margin-left: 20px; }
+    .header nav {
+        display: flex;
+        justify-content: center; }
+        .header nav ul {
+        list-style-type: none;
+        white-space: unset;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-end;
+        text-decoration: black; }
+        .header nav ul li {
+            margin: 0.5rem 1rem; }
+    .header img {
+        background-image: linear-gradient(rgba(206, 223, 236, 0.4), rgba(176, 189, 201, 0.4)), url("../imagenes/img-fondo.png");
+        background-repeat: no-repeat;
+        background-position: top right; }
