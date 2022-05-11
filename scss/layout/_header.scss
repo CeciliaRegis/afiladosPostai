@@ -8,7 +8,7 @@
     } 
     h1{
         font-style: oblique;
-        font-size: 250%;
+        font-size: 2px * 3;
         text-align: center;
         font-weight: 2px;
         margin: 10px;
@@ -39,7 +39,7 @@
             }
         }
     }
-    img{
+    /*img{
         background-image: linear-gradient(
 			rgba(206, 223, 236, 0.4),
 			rgba(176, 189, 201, 0.4)
@@ -47,7 +47,7 @@
 		url("../imagenes/img-fondo.png");
         background-repeat: no-repeat;
         background-position: top right;
-    }
+    }*/
 }
 
 
