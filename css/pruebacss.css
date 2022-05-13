@@ -1,15 +1,6 @@
 .header {
   height: 100%;
-  background-color: #caca00;
-  /*img{
-        background-image: linear-gradient(
-			rgba(206, 223, 236, 0.4),
-			rgba(176, 189, 201, 0.4)
-		),
-		url("../imagenes/img-fondo.png");
-        background-repeat: no-repeat;
-        background-position: top right;
-    }*/ }
+  background-color: #caca00; }
   .header img {
     margin: 1rem 1.5rem;
     max-width: 12rem;
@@ -93,17 +84,23 @@ body {
     text-align: center;
     font-weight: 2px;
     margin: 10px; }
-  body section {
-    display: flex;
-    flex-direction: column;
-    height: 100%; }
-    body section table {
-      background-color: yellowgreen;
-      text-align: center;
-      justify-content: center; }
-    body section th,
-    body section td {
-      border: solid 1px; }
-  @media (max-width: 768px) {
-    body .divHorarios {
-      grid-template-columns: 1fr; } }
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+  section table {
+    background-color: yellowgreen;
+    text-align: center;
+    justify-content: center; }
+  section th,
+  section td {
+    border: solid 1px; }
+
+@media (max-width: 768px) {
+  .divHorarios {
+    grid-template-columns: 1fr; } }
+
+* {
+  margin: 0;
+  padding: 0; }
