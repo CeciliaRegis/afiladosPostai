@@ -60,22 +60,50 @@ menu {
   menu .mapa {
     padding: 1rem 1rem 0 2rem; }
 
-footer {
+footer .contenedor-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #caca00; }
-  footer img {
-    margin: 1rem 1.5rem;
-    max-width: 12rem; }
-  footer h2 {
+
+footer div img {
+  margin: 1rem 1.5rem;
+  max-width: 12rem; }
+
+footer div h2 {
+  font-style: oblique;
+  font-size: 80%;
+  text-align: center;
+  margin: 10px;
+  margin-left: 20px; }
+
+footer div p {
+  font-style: oblique;
+  text-align: left;
+  margin: 10px;
+  margin-left: 20px;
+  font-size: 80%; }
+
+/*seccion horarios*/
+body {
+  background-color: #f8f8a8; }
+  body h1 {
     font-style: oblique;
-    font-size: 80%;
+    font-size: 36px;
     text-align: center;
-    margin: 10px;
-    margin-left: 20px; }
-  footer p {
-    font-style: oblique;
-    text-align: left;
-    margin: 10px;
-    margin-left: 20px; }
+    font-weight: 2px;
+    margin: 10px; }
+  body section {
+    display: flex;
+    flex-direction: column;
+    height: 100%; }
+    body section table {
+      background-color: yellowgreen;
+      text-align: center;
+      justify-content: center; }
+    body section th,
+    body section td {
+      border: solid 1px; }
+  @media (max-width: 768px) {
+    body .divHorarios {
+      grid-template-columns: 1fr; } }
