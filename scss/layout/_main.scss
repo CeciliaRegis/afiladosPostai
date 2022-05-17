@@ -20,17 +20,17 @@ menu{
         margin: 2rem;
     }
 
-    aside{
-        p {
-            font-style: oblique;
-            text-align: left;
-            margin: 10px;
-            margin-left: 20px;}
-    }
+    // aside{
+    //     p {
+    //         font-style: oblique;
+    //         text-align: left;
+    //         margin: 10px;
+    //         margin-left: 20px;}
+    // }
 
     .mapa {
-        padding: 1rem 1rem 0 2rem;
-        @include formato(15rem,50rem )
+        padding: 1rem 0rem 0 2rem;
+        @include formato(20rem,100% )
     }
 }
 

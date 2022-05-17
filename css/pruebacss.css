@@ -40,15 +40,10 @@ menu {
   menu h2 {
     text-align: center;
     margin: 2rem; }
-  menu aside p {
-    font-style: oblique;
-    text-align: left;
-    margin: 10px;
-    margin-left: 20px; }
   menu .mapa {
-    padding: 1rem 1rem 0 2rem;
-    width: 50rem;
-    height: 15rem; }
+    padding: 1rem 0rem 0 2rem;
+    width: 100%;
+    height: 20rem; }
 
 footer .contenedor-footer {
   display: flex;
