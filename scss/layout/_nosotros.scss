@@ -1,18 +1,20 @@
-.div-padre {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-column-gap: 1rem;
-	padding: 2rem;
-    img{
-        border-radius: 15px;
-	    width: 100%;
-    }
-    .nosotros__parrafo {
-        font-style: oblique;
-        text-align: justify;
-        font-size: 25px;
-        color: rgb(0, 0, 100);
-        margin: 0;
+body{
+    .div-padre {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1rem;
+        padding: 2rem;
+        img{
+            border-radius: 15px;
+            width: 100%;
+        }
+        .nosotros__parrafo {
+            font-style: oblique;
+            text-align: justify;
+            font-size: 25px;
+            color: rgb(0, 0, 100);
+            margin: 0;
+        }
     }
     @media (max-width: 768px) {
         .div-padre {
@@ -23,6 +25,7 @@
         }
     }
 }
+
 
 
 
