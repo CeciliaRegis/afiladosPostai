@@ -1,4 +1,7 @@
 footer {
+	height: 80px;
+	width: 100%;
+	background-color:rgb(202, 202, 0);
 	.contenedor-footer {
 		display: flex;
 		align-items: center;
@@ -8,7 +11,7 @@ footer {
 	div{
 		img{
 		margin: 1rem 1.5rem;
-		max-width: 12rem;
+		max-width: 80px;
 		}
 		h2{
 		font-style: oblique;

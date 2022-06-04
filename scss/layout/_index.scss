@@ -16,18 +16,19 @@ menu{
         margin-right: auto;
     }
 
-    h2 {
+    h1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 50px;
         text-align: center;
-        margin: 2rem;
+        font-weight: 2px;
+        margin: 10px;
     }
 
-    // aside{
-    //     p {
-    //         font-style: oblique;
-    //         text-align: left;
-    //         margin: 10px;
-    //         margin-left: 20px;}
-    // }
+    h2{
+        @extend h1 ;
+        font-size: 40px;
+        margin-left: 20px;
+    }
 
     .mapa {
         padding: 1rem 0rem 0 2rem;
