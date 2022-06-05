@@ -10,19 +10,15 @@ header{
             line-height: 80px;
         }
         nav{
+            background-color:rgb(202, 202, 0);
             display: flex;
             justify-content: end;
             align-items: center;
             padding-right: 5rem;
             width: 100%;
-            .checkbtn{
-                float: right;
-                line-height: 80px;
-                margin-right: 40px;
-                display: none;
-            }
-            #check{
-                display: none;
+            .prueba{
+                display: flex !important;
+                flex-flow: wrap !important;
             }
             ul{
                 display: flex;
@@ -45,37 +41,37 @@ header{
         }
     }
 }
-@media (max-width: 380px){
-    .checkbtn{
-        display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #2c3e50;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav {
-        #check:checked ~ ul{
-            left:0;
-        }
-        ul{
-            li{
-                display: block;
-                margin: 50px 0;
-                line-height: 30px;
-                a{
-                    font-size: 20px;
-                }
-            }
-        } 
-    }
+// @media (max-width: 380px){
+//     .checkbtn{
+//         display: block;
+//     }
+//     ul{
+//         position: fixed;
+//         width: 100%;
+//         height: 100vh;
+//         background: #2c3e50;
+//         top: 80px;
+//         left: -100%;
+//         text-align: center;
+//         transition: all .5s;
+//     }
+//     nav {
+//         #check:checked ~ ul{
+//             left:0;
+//         }
+//         ul{
+//             li{
+//                 display: block;
+//                 margin: 50px 0;
+//                 line-height: 30px;
+//                 a{
+//                     font-size: 20px;
+//                 }
+//             }
+//         } 
+//     }
     
-}
+// }
 
 
 
