@@ -75,7 +75,7 @@ menu {
     font-weight: 2px;
     margin: 10px; }
   menu h2 {
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 20px; }
   menu .mapa {
     width: auto;
@@ -95,7 +95,7 @@ footer {
     margin: 1rem 1.5rem;
     max-width: 80px; }
   footer div h2 {
-    font-style: oblique;
+    font-family: lucida;
     font-size: 80%;
     text-align: center;
     margin: 10px;
