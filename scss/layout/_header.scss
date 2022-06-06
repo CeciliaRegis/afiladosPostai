@@ -1,48 +1,89 @@
-header{
-    background-color:rgb(202, 202, 0);
-    height: 100px;
-    width: 100%;   
-    div{
-        background-color:rgb(202, 202, 0);
-        display: flex;
-        padding: 0;
-        img{/*logo*/
-            margin: 1rem 1.5rem;
-            max-width: 120px;
-            line-height: 80px;
-        }
-        nav{
-            background-color: rgb(202, 202, 0);
-            display: flex;
-            justify-content:space-between;
-            align-items: center;
-            width: 70%;
-            height: 100%;
-            padding: 0;
-            div{
-                ul{
-                    display: flex;
-                    width: 50%;
-                    padding-top: 1rem;
-                    list-style-type: none;
-                    text-decoration: black;
-                    :hover{
-                        background-color: #8a8b3c;
-                        padding:2px;
-                    }
-                    li{
-                        margin: 0.5rem 1rem;
-                        a{
-                            text-decoration: none;
-                            color: black;
-                        }
-                    }
-                }
-            }
-
-        }
-    }
+header {
+	div {
+		img {
+			/*logo*/
+			margin: 1rem 1.5rem;
+			max-width: 120px;
+			line-height: 80px;
+		}
+		nav {
+			background-color: rgb(202, 202, 0);
+			display: flex;
+			justify-content: end;
+			align-items: center;
+			height: 100%;
+            width: 100%;
+			padding: 2rem;
+			div {
+				ul {
+					display: flex;
+					width: 50%;
+					padding-top: 1rem;
+					list-style-type: none;
+					text-decoration: black;
+					:hover {
+						background-color: #8a8b3c;
+						margin: 2px;
+					}
+					li {
+						margin: 0.5rem 1rem;
+						a {
+							text-decoration: none;
+							color: black;
+						}
+					}
+				}
+			}
+		}
+	}
 }
+// header{
+//     background-color:rgb(202, 202, 0);
+//     height: 100px;
+//        
+//     div{
+//         background-color:rgb(202, 202, 0);
+//         display: flex;
+//         padding: 0;
+//         img{/*logo*/
+//             margin: 1rem 1.5rem;
+//             max-width: 120px;
+//             line-height: 80px;
+//         }
+//         nav{
+//             background-color: rgb(202, 202, 0);
+//             display: flex;
+//             justify-content:space-between;
+//             align-items: center;
+//             width: 70%;
+//             height: 100%;
+//             padding: 2rem;
+//             div{
+//                 ul{
+//                     display: flex;
+//                     width: 50%;
+//                     padding-top: 1rem;
+//                     list-style-type: none;
+//                     text-decoration: black;
+//                     :hover{
+//                         background-color: #8a8b3c;
+//                         padding:0;
+//                         transition: 0,5s;
+//                         width: auto;
+//                     }
+//                     li{
+//                         margin: 0.5rem 1rem;
+//                         a{
+//                             text-decoration: none;
+//                             color: black;
+//                         }
+//                     }
+//                 }
+//             }
+
+//         }
+//     }
+// }
 // @media (max-width: 380px){
 //     .checkbtn{
 //         display: block;
