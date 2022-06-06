@@ -9,6 +9,7 @@ $estilos:(
 body{
     background-color:map-get($estilos , color);
     h1{
+        margin: 10px;
         font-style: oblique;
         font-size: map-get($estilos , fuente);
         text-align: map-get($estilos , center);
@@ -20,7 +21,7 @@ body{
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 1rem;
         padding: 2rem;
-        margin: 60px;
+        margin: 50px;
         section {
             display: flex;
             flex-direction: column;
@@ -30,7 +31,8 @@ body{
                 background-color: rgb(213, 255, 128);
                 text-align: center;
                 justify-content: center;
-                margin-top: 3rem;
+                margin-top: 40px;
+                margin-bottom: 40px;
                 thead{
                     tr{
                         border: solid 1px black;

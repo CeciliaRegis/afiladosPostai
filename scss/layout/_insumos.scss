@@ -1,5 +1,8 @@
 /*seccion insumos con grid*/
 body{
+    h1{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
     .gridPadre{
             display: grid;
             grid-template-columns: repeat(3, 1fr);
