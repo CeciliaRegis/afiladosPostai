@@ -3,41 +3,43 @@ header{
     height: 100px;
     width: 100%;   
     div{
+        background-color:rgb(202, 202, 0);
         display: flex;
+        padding: 0;
         img{/*logo*/
             margin: 1rem 1.5rem;
             max-width: 120px;
             line-height: 80px;
         }
         nav{
-            background-color:rgb(202, 202, 0);
+            background-color: rgb(202, 202, 0);
             display: flex;
-            justify-content: end;
+            justify-content:space-between;
             align-items: center;
-            padding-right: 5rem;
-            width: 100%;
-            .prueba{
-                display: flex !important;
-                flex-flow: wrap !important;
-            }
-            ul{
-                display: flex;
-                width: 50%;
-                padding-top: 1rem;
-                list-style-type: none;
-                text-decoration: black;
-                :hover{
-                    background-color: #8a8b3c;
-                    padding:2px;
-                }
-                li{
-                    margin: 0.5rem 1rem;
-                    a{
-                        text-decoration: none;
-                        color: black;
+            width: 70%;
+            height: 100%;
+            padding: 0;
+            div{
+                ul{
+                    display: flex;
+                    width: 50%;
+                    padding-top: 1rem;
+                    list-style-type: none;
+                    text-decoration: black;
+                    :hover{
+                        background-color: #8a8b3c;
+                        padding:2px;
+                    }
+                    li{
+                        margin: 0.5rem 1rem;
+                        a{
+                            text-decoration: none;
+                            color: black;
+                        }
                     }
                 }
             }
+
         }
     }
 }
